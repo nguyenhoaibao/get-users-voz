@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 from pymongo import MongoClient
-from random import randint
 
 #total url to parse
 total_user = 10
@@ -13,7 +12,6 @@ base_profile_url = 'http://vozforums.com/member.php?u=';
 host = 'localhost'
 port = 27017
 
-number = 0
 #proxy list
 proxies = [
   '107.155.187.154:7808',
